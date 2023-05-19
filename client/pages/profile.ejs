@@ -30,21 +30,26 @@
       
    
     <div class="profile">
-      <div class="imgpro">
+        <div class="imgpro">
       <img src="imgs/profile.png" ></image>
       <button id="edit"> Edit Picture</button>
       </div>
-      
-      <input type="text" name="" placeholder=" First Name " id="first">
+     <h3 id="name"><%= user.fname + " "+user.lname %></h3> 
+     <h3 id="email"><%= user.email %></h3> 
+     <h3 id="password"><%= user.password %></h3> 
+      <!-- <input type="text" name="" placeholder=" First Name " id="first">
       <input type="text" name="" placeholder=" Last Name " id="last">
-      <input type="email" name="" placeholder=" Email " id="email555">
+      <input type="email" name="" placeholder=" Email " id="email554">
       <input type="password" name="" placeholder=" Password " id="passpf">
       <div class="buttonss">
         <button id="update"> Update</button>
        <button id="delete">Delete</button>
-      
+       -->
+
       </div>
- </div>
+
+
+     </div>
 
   
 
@@ -64,8 +69,26 @@
     </div>
   </footer>
 
-
      <script src="js/script.js"></script>
+    <script>
+ window.onload =      profiile();
+   </script> 
+<!-- <script>
 
+  const response = fetch
+        (
+            'http://localhost:8080/profile',
+        {
+        method: 'get',
+          headers: { "Content-Type": "application/json" },
+        }
+        ).then(a =>a.json()).then(user => {
+          document.getElementById("first").value = user.fname;
+          document.getElementById("last").value = user.lname;
+          document.getElementById("email554").value = user.email;
+          document.getElementById("passpf").value = user.password;
+        })
+</script>
+ -->
 </body>
 </html>
