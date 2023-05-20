@@ -6,7 +6,7 @@ var db = require('../../services/dbrequests/dbreq');
 router.get('/', (req, res) => {
    res.render("signup");
 })
-
+//yoooooo
 router.post('/', async (req, res) => {
     User = req.body;
 await db.adduser(User);
