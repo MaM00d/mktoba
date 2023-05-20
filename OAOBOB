@@ -1,0 +1,56 @@
+[33m07eb963[m[33m ([m[1;36mHEAD -> [m[1;32mtry[m[33m)[m HEAD@{0}: checkout: moving from main to try
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: checkout: moving from dev to main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{2}: checkout: moving from 07eb96373084b48ef8798fed19d88efc9cadb514 to dev
+[33m07eb963[m[33m ([m[1;36mHEAD -> [m[1;32mtry[m[33m)[m HEAD@{3}: merge try: Fast-forward
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{4}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{5}: checkout: moving from 07eb96373084b48ef8798fed19d88efc9cadb514 to origin/dev
+[33m07eb963[m[33m ([m[1;36mHEAD -> [m[1;32mtry[m[33m)[m HEAD@{6}: merge try: Fast-forward
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from dev to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{8}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to dev
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{9}: checkout: moving from 07eb96373084b48ef8798fed19d88efc9cadb514 to origin/dev
+[33m07eb963[m[33m ([m[1;36mHEAD -> [m[1;32mtry[m[33m)[m HEAD@{10}: commit: fixed register login routs added adduser
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{11}: checkout: moving from 1b85857287b6667408c948faa78cfeda93f77d97 to origin/dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{12}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{13}: checkout: moving from 1b85857287b6667408c948faa78cfeda93f77d97 to origin/dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{14}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{15}: checkout: moving from 1b85857287b6667408c948faa78cfeda93f77d97 to origin/dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{16}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{17}: merge origin/dev: Fast-forward
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{18}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{19}: checkout: moving from 1b85857287b6667408c948faa78cfeda93f77d97 to origin/dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{20}: checkout: moving from dev to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{21}: checkout: moving from 7cf5550ca7218bf9956ff9d1d6167b8b969cf9bb to dev
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{22}: merge origin/dev: Fast-forward
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{23}: checkout: moving from dev to origin/main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{24}: checkout: moving from main to dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{25}: checkout: moving from dev to main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{26}: checkout: moving from 1b85857287b6667408c948faa78cfeda93f77d97 to dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{27}: checkout: moving from main to origin/main
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{28}: checkout: moving from dev to main
+[33m7cf5550[m[33m ([m[1;31morigin/dev[m[33m, [m[1;31mTME/dev[m[33m, [m[1;32mdev[m[33m)[m HEAD@{29}: commit: fixed logout
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{30}: pull origin main: Fast-forward
+[33md8c2868[m HEAD@{31}: checkout: moving from main to dev
+[33m1b85857[m[33m ([m[1;31morigin/main[m[33m, [m[1;31mTME/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{32}: commit: delete ssh from main
+[33md8c2868[m HEAD@{33}: checkout: moving from b64510404c3d7403608a0be1b1d07cb149357521 to main
+[33mb645104[m HEAD@{34}: commit: removed ssh from origin
+[33md8c2868[m HEAD@{35}: checkout: moving from main to remotes/origin/main
+[33md8c2868[m HEAD@{36}: merge dev: Fast-forward
+[33m23236e0[m HEAD@{37}: checkout: moving from dev to main
+[33md8c2868[m HEAD@{38}: checkout: moving from main to dev
+[33m23236e0[m HEAD@{39}: checkout: moving from dev to main
+[33md8c2868[m HEAD@{40}: commit: added ssh to gitignore
+[33m23236e0[m HEAD@{41}: checkout: moving from 23236e0ca58e18d89888e27581f09957412b5cb3 to dev
+[33m23236e0[m HEAD@{42}: checkout: moving from main to origin/main
+[33m23236e0[m HEAD@{43}: checkout: moving from 23236e0ca58e18d89888e27581f09957412b5cb3 to main
+[33m23236e0[m HEAD@{44}: checkout: moving from 2f84df79634b7eb8dc91abdc2872aba77e8a983e to origin/main
+[33m2f84df7[m HEAD@{45}: merge main: Merge made by the 'ort' strategy.
+[33m0de5a2b[m HEAD@{46}: checkout: moving from ae48fd324954245839ab941b0cb814f462e2a176 to origin/main
+[33mae48fd3[m HEAD@{47}: pull origin main: Merge made by the 'ort' strategy.
+[33m23236e0[m HEAD@{48}: merge main: Fast-forward
+[33mf2fec37[m HEAD@{49}: checkout: moving from main to origin/main
+[33m23236e0[m HEAD@{50}: checkout: moving from f2fec372318fab49ff4e7832386fe2a8f57b56ef to main
+[33mf2fec37[m HEAD@{51}: checkout: moving from main to origin/main
+[33m23236e0[m HEAD@{52}: checkout: moving from main to main
+[33m23236e0[m HEAD@{53}: commit: added routing modules and fixed the profile and llogin page
+[33mf2fec37[m HEAD@{54}: Branch: renamed refs/heads/master to refs/heads/main
+[33mf2fec37[m HEAD@{56}: commit (initial): first commit
