@@ -165,7 +165,7 @@ function checkpass(){
         console.log(User);
         const response = await fetch
         (
-            'http://localhost:8080/adduser',
+            '/register',
         {
         method: 'POST',
           headers: { "Content-Type": "application/json" },
@@ -186,7 +186,7 @@ const User =  {
 
         const response = await fetch
         (
-            'http://localhost:8080/login',
+            '/login',
         {
         method: 'post',
         headers: { "Content-Type": "application/json" },
@@ -202,5 +202,6 @@ const User =  {
         
 
         }
+
      
    

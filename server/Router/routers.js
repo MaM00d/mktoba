@@ -18,6 +18,10 @@ app.use('/mybooks',mybooksrout);
 const profilerout = require("./Routs/profile");
 app.use('/profile',profilerout);
 
+const logoutrout = require("./Routs/logout");
+app.use('/logout',logoutrout);
+
+
 const bookrout = require("./Routs/book");
 app.use('/book',bookrout);
 
