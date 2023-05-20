@@ -172,6 +172,13 @@ function checkpass(){
         body:JSON.stringify(User), 
         }
         )
+        .then(result => result.json())
+        .then(data => {
+            if(data.success){
+            window.location.href = "./";
+            }
+         }
+        )
         }                                                              
 
 //login

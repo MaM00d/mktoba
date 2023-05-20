@@ -23,4 +23,10 @@ const user = await prisma.user.findUnique({
 
 return user;
 }
-module.exports ={getuser,getuserbyemail};
+async function adduser(data){
+
+  const post = await prisma.User.create({
+    data
+  })
+}
+module.exports ={getuser,getuserbyemail,adduser};
