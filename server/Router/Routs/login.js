@@ -9,7 +9,12 @@ var db = require('../../services/dbrequests/dbreq');
  router.use(bodyparser.json());
  router.use(express.urlencoded({extended: true}));
 router.get('/', (req, res) => {
-   res.render("login");
+   if(req.session.authenticated){
+      res.send("you already logged in");
+   }else{
+
+   res.render("login",{auth:req.session.authenticated});
+   }
 })
 
 router.post('/', async (req, res) => {

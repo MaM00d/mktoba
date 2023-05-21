@@ -18,7 +18,7 @@ const SESSION_SECRET = "ajslkjalksjdfkl";
       secret: SESSION_SECRET,
       resave: false,
       saveUninitialized: false,
-      
+     authenticated:false,
       cookie: {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",

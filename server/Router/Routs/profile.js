@@ -3,7 +3,12 @@ var router = express.Router();
 const app = express();
 
 router.get('/', (req, res) => {
-   res.render("profile",  {user:req.session.user});
+   if(req.session.authenticated){
+   res.render("profile",  {user:req.session.user,auth:req.session.authenticated});
+   }
+   else{
+      res.send("you arenot loginned");
+   }
 })
 
 module.exports = router;

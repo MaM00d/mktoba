@@ -4,16 +4,7 @@ var router = express.Router();
 
 router.get('/', (req, res) => {
      
-    if('authenticated' in req.session){
-      if(req.session.authenticated){
-
-   res.render("indexlogged");
-      }
-  }
-else{
-
-   res.render("index");
-     }
+   res.render("index",{auth:req.session.authenticated});
 })
 
 module.exports = router;

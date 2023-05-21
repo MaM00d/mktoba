@@ -4,7 +4,13 @@ var router = express.Router();
 var db = require('../../services/dbrequests/dbreq');
 
 router.get('/', (req, res) => {
-   res.render("signup");
+if(req.session.authenticated){
+res.send("you already loged in")
+}else
+{
+
+   res.render("signup",{auth:req.session.authenticated});
+}
 })
 //yoooooo
 router.post('/', async (req, res) => {

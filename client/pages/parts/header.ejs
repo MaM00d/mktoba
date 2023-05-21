@@ -1,0 +1,24 @@
+
+<header>
+    <div class="logo">
+      <a href="/"><img src="imgs/logo.png" alt="logo"></a>
+        <a href="/"><h1>mktoba</h1></a>
+    </div>
+
+    <div class="search">
+    <input class="search-input" id="search" type="text" >
+    <button class="search-btn"  onclick="gitbooks()">search</button>
+    </div>
+    <nav>
+      <ul>
+        <a href="/"><li><img src="imgs/home.png" alt="">Home</li></a> 
+        <% if(auth){  %>
+
+        <a href="/profile"> <li><img src="imgs/login.png" alt="">profile</li></a> 
+        <a href="/logout"> <li><img src="imgs/logout.png" alt="">log-out</li></a> 
+        <% }else{ %>
+        <a href="/login"> <li><img src="imgs/login.png" alt="">login/sign up</li></a> 
+        <% } %>
+      </ul>
+    </nav>
+</header> 
